@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	FixedPrecision
+%define		pdir	Math
+%define		pnam	FixedPrecision
 Summary:	Math::FixedPrecision - decimal math without floating point errors
 Summary(pl):	Math::FixedPrecision - obliczenia dziesiêtne bez b³êdów zmiennoprzecinkowych
 Name:		perl-Math-FixedPrecision
