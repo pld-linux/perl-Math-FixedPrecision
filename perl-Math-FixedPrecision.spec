@@ -19,8 +19,11 @@ BuildRequires:	perl-Math-BigInt
 BuildRequires:	perl(Math::BigFloat) >= 1.27
 BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+Requires:	perl(Math::BigFloat) >= 1.27
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define	_noautoreq	perl(Math::BigFloat(1.27))
 
 %description
 There are numerous instances where floating point math is unsuitable,
