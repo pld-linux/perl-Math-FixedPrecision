@@ -16,14 +16,10 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	3999a0e6ca3b6ad73f25466af6025c7f
 Patch0:		%{name}-perl_paths.patch
 BuildRequires:	perl-Math-BigInt
-BuildRequires:	perl(Math::BigFloat) >= 1.27
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-Requires:	perl(Math::BigFloat) >= 1.27
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define	_noautoreq	perl(Math::BigFloat(1.27))
 
 %description
 There are numerous instances where floating point math is unsuitable,
@@ -71,5 +67,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_vendorlib}/Math/FixedPrecision.pm
+%{perl_vendorlib}/Math/*.pm
 %{_mandir}/man3/*
