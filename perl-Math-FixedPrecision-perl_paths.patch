@@ -1,0 +1,18 @@
+diff -Nur Math-FixedPrecision-0.21.orig/FixedPrecision.pm Math-FixedPrecision-0.21/FixedPrecision.pm
+--- Math-FixedPrecision-0.21.orig/FixedPrecision.pm	2003-12-04 00:02:24.000000000 +0100
++++ Math-FixedPrecision-0.21/FixedPrecision.pm	2003-12-04 00:12:05.000000000 +0100
+@@ -1,4 +1,4 @@
+-#!/usr2/local/bin/perl -w
++#!/usr/bin/perl -w
+ #
+ # PROGRAM:	Math::FixedPrecision.pm	# - 04/26/00 9:10:AM
+ # PURPOSE:	Perform precise decimal calculations without floating point errors
+diff -Nur Math-FixedPrecision-0.21.orig/t/test.t Math-FixedPrecision-0.21/t/test.t
+--- Math-FixedPrecision-0.21.orig/t/test.t	2003-12-04 00:02:24.000000000 +0100
++++ Math-FixedPrecision-0.21/t/test.t	2003-12-04 00:12:26.000000000 +0100
+@@ -1,4 +1,4 @@
+-#!/bin/perl
++#!/usr/bin/perl -w
+ # Before `make install' is performed this script should be runnable with
+ # `make test'. After `make install' it should work as `perl test.pl'
+ 

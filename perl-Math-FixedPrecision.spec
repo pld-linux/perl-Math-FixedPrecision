@@ -14,6 +14,7 @@ License:	GPL v1+ or Artistic except commercial distribution on CD-ROM etc.
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	3999a0e6ca3b6ad73f25466af6025c7f
+Patch0:		%{name}-perl_paths.patch
 BuildRequires:	perl-Math-BigInt
 BuildRequires:	perl(Math::BigFloat) >= 1.27
 BuildRequires:	perl-devel >= 5.8.0
@@ -46,6 +47,7 @@ tego obiektu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+%patch -p1
 
 %build
 %{__perl} Makefile.PL \
