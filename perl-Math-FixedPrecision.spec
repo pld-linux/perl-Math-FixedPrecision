@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	FixedPrecision
 Summary:	Math::FixedPrecision - decimal math without floating point errors
-Summary(pl):	Math::FixedPrecision - obliczenia dziesiêtne bez b³êdów zmiennoprzecinkowych
+Summary(pl.UTF-8):   Math::FixedPrecision - obliczenia dziesiÄ™tne bez bÅ‚Ä™dÃ³w zmiennoprzecinkowych
 Name:		perl-Math-FixedPrecision
 Version:	0.21
 Release:	1
@@ -32,16 +32,16 @@ Math::BigFloat. This module simplifies that task by assuming that if
 you specify a given number of decimal places in the call to new() then
 that should be the precision for that object going forward.
 
-%description -l pl
-Jest wiele sytuacji, gdzie obliczenia zmiennoprzecinkowe nie s±
-odpowiednie, chocia¿ dane nie sk³adaj± siê z samych liczb ca³kowitych.
-Ten modu³ dodaje nowe mo¿liwo¶ci do modu³u Math::BigFloat, aby ten
-automatycznie oblicza³ dok³adno¶æ w czasie obliczeñ. Jest to wygodny
-modu³, poniewa¿ wszystkie operacje s± wykonywane wewnêtrznie przez
-Math::BigFloat. Mo¿na robiæ wszystko z tym modu³em ustawiaj±c atrybuty
-w Math::BigFloat. Ten modu³ upraszcza zadanie przyjmuj±c, ¿e je¶li
-liczba znacz±cych cyfr dziesiêtnych zosta³a podana w wywo³aniu new(),
-to taka dok³adno¶æ powinna byæ potem wszêdzie u¿ywana w odniesieniu do
+%description -l pl.UTF-8
+Jest wiele sytuacji, gdzie obliczenia zmiennoprzecinkowe nie sÄ…
+odpowiednie, chociaÅ¼ dane nie skÅ‚adajÄ… siÄ™ z samych liczb caÅ‚kowitych.
+Ten moduÅ‚ dodaje nowe moÅ¼liwoÅ›ci do moduÅ‚u Math::BigFloat, aby ten
+automatycznie obliczaÅ‚ dokÅ‚adnoÅ›Ä‡ w czasie obliczeÅ„. Jest to wygodny
+moduÅ‚, poniewaÅ¼ wszystkie operacje sÄ… wykonywane wewnÄ™trznie przez
+Math::BigFloat. MoÅ¼na robiÄ‡ wszystko z tym moduÅ‚em ustawiajÄ…c atrybuty
+w Math::BigFloat. Ten moduÅ‚ upraszcza zadanie przyjmujÄ…c, Å¼e jeÅ›li
+liczba znaczÄ…cych cyfr dziesiÄ™tnych zostaÅ‚a podana w wywoÅ‚aniu new(),
+to taka dokÅ‚adnoÅ›Ä‡ powinna byÄ‡ potem wszÄ™dzie uÅ¼ywana w odniesieniu do
 tego obiektu.
 
 %prep
