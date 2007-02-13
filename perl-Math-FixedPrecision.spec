@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	FixedPrecision
 Summary:	Math::FixedPrecision - decimal math without floating point errors
-Summary(pl.UTF-8):   Math::FixedPrecision - obliczenia dziesiętne bez błędów zmiennoprzecinkowych
+Summary(pl.UTF-8):	Math::FixedPrecision - obliczenia dziesiętne bez błędów zmiennoprzecinkowych
 Name:		perl-Math-FixedPrecision
 Version:	0.21
 Release:	1
